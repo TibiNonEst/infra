@@ -35,6 +35,7 @@ in
         zfsSupport = true;
       };
       kernelPackages = latestKernelPackage;
+      zfs.forceImportRoot = false;
     };
 
     services = {

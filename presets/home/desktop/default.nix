@@ -104,9 +104,8 @@
       ];
     };
 
-    vscode = {
+    vscodium = {
       enable = true;
-      package = pkgs.vscodium;
       profiles.default.extensions = with pkgs.vscode-extensions; [
         # ardenivanov.svelte-intellisense
         astro-build.astro-vscode
