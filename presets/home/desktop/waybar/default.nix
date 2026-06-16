@@ -10,7 +10,7 @@
     settings = {
       default = {
         position = "top";
-        margin = "10 10 0 10";
+        margin = "8 8 0 8";
         modules-left = [
           "hyprland/workspaces"
           "tray"

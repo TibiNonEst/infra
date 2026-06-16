@@ -2,7 +2,7 @@
 {
   imports = [
     ./firefox.nix
-    ./hyprland.nix
+    ./hyprland
     ./waybar
   ];
 

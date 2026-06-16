@@ -29,7 +29,6 @@
     # Bluetooth manager
     blueman = {
       enable = true;
-      withApplet = true;
     };
 
     # Display manager
