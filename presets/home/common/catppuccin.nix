@@ -7,11 +7,11 @@
 {
   catppuccin = {
     enable = true;
+    autoEnable = true; # supress warning
     accent = "lavender";
     flavor = "macchiato";
 
     cursors.enable = lib.mkIf desktop true;
-
   };
 
   gtk = lib.mkIf desktop rec {

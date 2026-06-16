@@ -15,6 +15,7 @@
   ### Catppuccin-ify everything
   catppuccin = {
     enable = true;
+    autoEnable = true; # supress warning
     accent = "lavender";
     flavor = "macchiato";
   };
