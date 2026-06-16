@@ -122,8 +122,8 @@
   ### Networking
   networking = {
     domain = "violet.sh";
-    useDHCP = false;
-    dhcpcd.enable = false;
+    useDHCP = lib.mkDefault false;
+    dhcpcd.enable = lib.mkDefault false;
     firewall.enable = true;
     nftables.enable = true;
     search = [ "as215207.net" ];
